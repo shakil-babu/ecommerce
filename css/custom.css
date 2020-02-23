@@ -1,0 +1,148 @@
+.carouselBg {
+  background-color: #fceae8;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+@media (max-width: 991px) {
+  .headerOfcarousel {
+    font-size: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .headerOfcarousel {
+    font-size: 20px;
+  }
+}
+
+.priceButton {
+  color: #ff136f;
+}
+
+.designButton {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+}
+
+/* box desgin */
+.box1 {
+  background-color: orange;
+}
+.box1:hover {
+  border: 1px solid orange;
+  background: none;
+  color: orange;
+  transition: 0.3s;
+}
+.box2 {
+  background-color: orchid;
+}
+.box2:hover {
+  border: 1px solid orchid;
+  background: none;
+  color: orchid;
+  transition: 0.3s;
+}
+.box3 {
+  background: #ff3685;
+}
+.box3:hover {
+  border: 1px solid #ff3685;
+  background: none;
+  color: #ff3685;
+  transition: 0.3s;
+}
+.box1,
+.box2,
+.box3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.blockPopular {
+  width: 100px;
+}
+@media (max-width: 767px) {
+  .imgWidth {
+    width: 60%;
+  }
+}
+#background {
+  background: url(../img/back.jpg) no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+/* card design */
+
+.sizePadding {
+  margin-bottom: 100px;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 10px;
+  height: 450px;
+}
+.cardBG {
+  height: 550px;
+}
+.card:hover {
+  border: 1px solid lightgray;
+}
+.card:hover h4 {
+  color: #ff136f;
+  transition: 0.5s;
+}
+.card:hover p {
+  color: gray;
+  transition: 0.5s;
+}
+.card:hover button {
+  border: 1px solid #ff136f;
+  background: none;
+  transition: 0.5s;
+  color: #ff136f;
+}
+
+/* footerSection */
+.subsCribe {
+  background: #fceae8;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.group {
+  width: 400px;
+
+  height: 320px;
+  margin-top: 100px;
+}
+
+@media (max-width: 567px) {
+  .headingOfsubs {
+    font-size: 30px;
+    color: #ff136f;
+    text-align: center;
+  }
+  .getQu {
+    text-align: center;
+    font-size: 15px;
+  }
+  .inputS {
+    width: 80%;
+    margin: auto;
+  }
+  .submit {
+    width: 80%;
+    margin: auto;
+  }
+}
